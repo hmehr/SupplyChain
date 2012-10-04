@@ -23,7 +23,7 @@ public class Manufacturer {
         return true;
     }
     
-    boolean produce(String productName, int quantity) {
+    private boolean produce(String productName, int quantity) {
         return true;
     }
     

@@ -2,14 +2,16 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package Manufacturer;
+package RetailerSystem;
+
+import Manufacturer.ProductType;
 
 /**
  *
  * @author hmehr
  */
-public class Product {
-    //
+public class Item {
+    //manufacturerName (String), productType (String), unitPrice (float), quantity (int)
     
     private String manufacturerName;
     public String getManufacturerName(){
@@ -38,8 +40,13 @@ public class Product {
         this.unitPrice = unitPrice;
     }
     
-            
-            
-    
-}
+    private int quantity;
 
+    public int getQuantity() {
+        return this.quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+}

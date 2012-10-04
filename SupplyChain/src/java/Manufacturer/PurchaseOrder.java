@@ -11,7 +11,7 @@ package Manufacturer;
 class PurchaseOrder {
 
     
-    String orderNum;
+    private String orderNum;
 
     public String getOrderNum() {
         return this.orderNum;
@@ -20,7 +20,7 @@ class PurchaseOrder {
     public void setOrderNum(String orderNum) {
         this.orderNum = orderNum;
     }
-    String customerRef;
+    private String customerRef;
 
     public String getCustomerRef() {
         return this.customerRef;
@@ -29,7 +29,7 @@ class PurchaseOrder {
     public void setCustomerRef(String customerRef) {
         this.customerRef = customerRef;
     }
-    Product product;
+    private Product product;
 
     public Product getProduct() {
         return this.product;
@@ -38,7 +38,7 @@ class PurchaseOrder {
     public void setProduct(Product product) {
         this.product = product;
     }
-    int quantity;
+    private int quantity;
 
     public int getQuantity() {
         return this.quantity;
@@ -47,7 +47,7 @@ class PurchaseOrder {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
-    float unitPrice;
+    private float unitPrice;
 
     public float getUnitPrice() {
         return this.unitPrice;
